@@ -11,3 +11,9 @@ h1 {
 .writtenCell {
     background-color: black;
 }
+
+button {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
