@@ -7,3 +7,7 @@ h1 {
     width: 600px;
     margin: 0 auto;
 }
+
+.writtenCell {
+    background-color: black;
+}

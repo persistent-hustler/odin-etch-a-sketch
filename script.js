@@ -10,6 +10,7 @@ for(i = 0; i < numberOfCells; i++) {
         let cellWidth = `${600/numberOfCells}px`;
 
         cell.setAttribute('style', `width: ${cellWidth}; height: ${cellWidth}; border: 1px solid black;`);
+        cell.addEventListener('mouseenter', () => cell.setAttribute('class', 'writtenCell'));
         line.appendChild(cell);
     }
     container.appendChild(line);
